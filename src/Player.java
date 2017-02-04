@@ -1,5 +1,3 @@
-package task3;
-
 import java.util.*;
 
 public class Player {
@@ -131,9 +129,6 @@ public class Player {
                 m=result[i];
         }
         return m;
-    }
-    public void setName(String n){
-        name=n;
     }
     public void addResult(Integer res){
         result.add(res);
